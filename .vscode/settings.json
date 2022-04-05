@@ -1,0 +1,18 @@
+{
+	"files.exclude": {
+		".vscode": true,
+		".ft_cache": true,
+	},
+	"files.associations": {
+		"*.h": "c",
+	},
+	"C_Cpp.default.cStandard": "c99",
+	"C_Cpp.default.includePath": [
+		"src/includes",
+		"${default}",
+	],
+	"c-cpp-flylint.includePaths": [
+		"src/includes",
+	],
+	"norminette.fileregex": "*\\.[ch]$",
+}
